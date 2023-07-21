@@ -70,34 +70,3 @@ Static HTML and CSS has been created for most of the site and is located in: `/d
 For some of the dynamic features, like toggling user editing, there is a mock-up for it in `/designs/wireframes/edit-user-name.png`.
 
 And for the API model that you will be proposing for transactitons, the wireframe can be found in `/designs/wireframes/transactions.png`.
-
-
-## Front-End
-
-### Project
-
-#### 1.1 Prerequisites
-
-- [NodeJS (**version 18.16.0**)](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/), [npm](https://www.npmjs.com/), [pnpm](https://pnpm.io)
-
-If you are working with several versions of NodeJS, we recommend you install [nvm](https://github.com/nvm-sh/nvm). This tool will allow you to easily manage your NodeJS versions.
-
-#### 1.2 Launching the project
-
-```shell
-cd front-end
-# Create .env.local and copy/paste the content of .env.exemple into .env.local
-
-# if you using yarn
-yarn install
-yarn dev
-
-#if you using npm
-npm i
-npm dev
-
-#if you using pnpm
-pnpm i
-pnpm dev
-```
